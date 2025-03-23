@@ -18,6 +18,6 @@ spec:
       - name: docker-hub-secret  # <-- Add this line
       containers:
       - name: go-web-app
-        image: akash8992/go-web-app:{{ .Values.image.tag}}
+        image: akash8992/go-web-app:{{ .Values.image.tag }}
         ports:
         - containerPort: 8080
