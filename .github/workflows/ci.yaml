@@ -69,7 +69,7 @@ jobs:
         context: .
         file: ./Dockerfile
         push: true
-        tags: ${{ secrets.DOCKERHUB_USERNAME }}/go-web-app:${{ github.run_id }}
+        tags: ${{ secrets.DOCKERHUB_USERNAME }}/devops-go-web-app:${{ github.run_id }}
 
 ## Update the Helm chart with new tag 
   update-newtag-in-helm-chart:
